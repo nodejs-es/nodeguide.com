@@ -1,12 +1,12 @@
 % Felix's Node.js Beginners Guide
+% traducido por Damian Suarez (rdsuarez@gmail.com)
 
-There is lots of information about node.js, but given the rapid pace at which it
-is developing, it can be difficult for beginners to find good, current
-information on how to get started. This guide aims to provide exactly that,
-whilst staying updated with the latest stable version of node.js.
+Hay mucha información acerca de node.js, pero dado el ritmo rápido en el cual se está desarrollando, puede ser complicado para principiantes encontrar buena informacion de cómo comenzar. Esta guía pretende proveer exactamente eso y al mismo tiempo mantenerse actualizado con la versión estable más reciente de node.
 
 This guide has been updated to reflect the latest changes in node 0.4.x, the
 currently stable branch of node.js.
+
+Esta guía ha sido actualizada para reflejar los últimos cambios en node 0.4.x, La rama actual estable de node.js.
 
 ## Learning JavaScript
 
