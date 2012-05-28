@@ -1,4 +1,4 @@
-% Felix's Node.js Convincing the boss guide
+% Felix's Node.js Convenciendo al jefe
 
 Now that you're all hyped up about using node.js, it's time to convince your
 boss. Well, maybe. I have had the pleasure of [consulting][consulting] for
@@ -11,64 +11,45 @@ convince the management.
 
 [consulting]: http://debuggable.com/
 
-## Bad Use Cases
+## Malos casos de uso
 
-### CPU heavy apps
+### Aplicaciones que hacen uso intensivo de CPU
 
-Even though I love node.js, there are several use cases where it simply doesn't make
-sense. The most obvious such case is apps that are very heavy on CPU usage, and
-very light on actual I/O. So if you're planning to write video encoding
-software, artificial intelligence or similar CPU hungry software, please do not
-use node.js. While you can twist and bend things quite a bit, you'll probably
-get better results with C or C++.
+Aunque amo node.js, hay muchos casos donde simplemente no tiene sentido. 
+El caso más obvio son las aplicaciones que hacen un uso intensivo de CPU, y son livianas en I/O. 
+Si estás planeando escribir software de encoding de video, inteligencia artificial o software de similar hambre de CPU, por favor no uses node.js. 
+Si bien se pueden retorcer un poco las cosas, probablemente tengas mejores resultados con C o C++.
 
-That being said, node.js allows you to easily write C++ addons, so you could
-certainly use it as a scripting engine on top of your super-secret algorithms.
+Una vez dicho esto, node.js permite escribir facilmente extensiones en C++, entonces es posible usarlo como un engine de scripting por sobre nuestros super-secretos algoritmos.
 
-### Simple CRUD / HTML apps
+### Aplicaciones simples CRUD / HTML
 
-While node.js will eventually be a fun tool for writing all kinds of web
-applications, you shouldn't expect it to provide you with more benefits than
-PHP, Ruby or Python at this point. Yes, your app might end up slightly more
-scalable, but no - your app will not magically get more traffic just because
-you write it in node.js.
+Mientras node.js es eventualmente una herramienta divertida para escribir todo tipo de aplicaciones web, no deberias esperar que te provea más beneficios que PHP, Ruby o Python a este punto. 
+Sí, tu aplicación puede que termine siendo un poquito más escalable, pero no - tu aplicación no va a tener magicamente más tráfico porque la escribiste en node.js.
 
-The truth is that while we are starting to see good frameworks for node.js,
-there is nothing as powerful as Rails, CakePHP or Django on the scene yet. If
-most of your app is simply rendering HTML based on some database, using node.js
-will not provide many tangible business benefits yet.
+La verdad es que mientras estamos empezando a ver buenos frameworks para node.js, no hay nada tan poderoso como Rails, CakePHP o Django en la escena todavía. 
+Si la mayor parte de tu aplicación es simplemente mostrar HTML basado en alguna base de datos, usar node.js no te va a proveer muchos beneficios tangibles para tu negocio todavía.
 
-### NoSQL + Node.js + Buzzword Bullshit
+### NoSQL + Node.js + Basura de palabra de moda
 
-If the architecture for your next apps reads like the cookbook of NoSQL
-ingredients, please pause for a second and read this.
+Si la arquitectura para tu próxima aplicación se lee como el libro de recetas de ingredientes NoSQL, por favor tomate un segundo y lee esto.
 
-Yes, Redis, CouchDB, MongoDB, Riak, Casandra, etc. all look really tempting, but
-so did that red apple Eve couldn't resist. If you're already taking a
-technological risk with using node.js, you shouldn't multiply it with more
-technology you probably don't fully understand yet.
+Sí, Redis, CouchDB, MongoDB, Riak, Casandra, etc. todos se ven realmente tentadores, pero hicieron que la manzana roja de Eva no pudiera resistirse. 
+Si ya estás tomando un riesgo tecnológico usando node.js, no deberias multiplicarlo con más tecnología que probablemente todavía no entiendas completamente.
 
-Sure, there are legitimate use cases for choosing a document oriented database.
-But if you are trying to build a business on top of your software, sticking to
-conservative database technology (like postgres or mysql) might just outweigh
-the benefits of satisfying your inner nerd and impressing your friends.
+Seguro, hay legitimos casos de uso para elegir una base de datos orientada a documentos. 
+Pero si estás tratando de crear un negocio sobre tu software, apegandote a tecnologías conservadoras de bases de datos (como postgres o mysql) podría superar los beneficios de satisfacer tu nerd interior e impresionar a tus amigos.
 
-## Good Use Cases
+## Buenos casos de uso
 
 ### JSON APIs
 
-Building light-weight REST / JSON api's is something where node.js really
-shines. Its non-blocking I/O model combined with JavaScript make it a great
-choice for wrapping other data sources such as databases or web services and
-exposing them via a JSON interface.
+Creando APIs REST / JSON ligeras es algo en lo que node.js realmente brilla. 
+Su modelo non-blocking de I/O combinado con JavaScript hacen a una gran opción para envolver otras fuentes de información como bases de datos o web services y exponerlas via una interface JSON.
 
-### Single page apps
+### Aplicaciones de una sola página
 
-If you are planning to write an AJAX heavy single page app (think gmail),
-node.js is a great fit as well. The ability to process many requests / seconds
-with low response times, as well as sharing things like validation code between
-the client and server make it a great choice for modern web applications that do
-lots of processing on the client.
+Si estás planeando escribir una aplicación de fuerte uso de AJAX de una sola página (pensá en gmail), node.js se ajusta perfectamente. La habilidad de procesar muchos requests / segundo con bajo tiempo de respuesta, así como compartiendo cosas como código de validación entre el servidor y el cliente, hace una gran opción para las aplicaciones web que hacen mucho procesamiento en el lado del cliente.
 
 ### Shelling out to unix tools
 
