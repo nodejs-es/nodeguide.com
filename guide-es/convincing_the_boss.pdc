@@ -1,15 +1,11 @@
 % Felix's Node.js Convenciendo al jefe
 
-Now that you're all hyped up about using node.js, it's time to convince your
-boss. Well, maybe. I have had the pleasure of [consulting][consulting] for
-different businesses on whether node.js is the right technology, and sometimes
-the answer is simply no.
+Ahora qeu estás emocionado acerca de la idea de usar node.js, es tiempo de convencer a tu jefe.
+Bueno, quizas. Tengo el placer de hacer [consultoría][consultoría] para diferentes negocios donde node.js es la tecnología correcta y a veces la respuesta es no.
 
-So this guide is my opinionated collection of advice for those of you that want
-to explore whether node.js makes sense for their business, and if so, how to 
-convince the management.
+Entonces esta guía es mi conjunto de consejos para aquellos para los que explorar node.js tenga sentido para sus negocios, y si es así, como convencer a sus gerentes.
 
-[consulting]: http://debuggable.com/
+[consultoría]: http://debuggable.com/
 
 ## Malos casos de uso
 
@@ -51,112 +47,75 @@ Su modelo non-blocking de I/O combinado con JavaScript hacen a una gran opción 
 
 Si estás planeando escribir una aplicación de fuerte uso de AJAX de una sola página (pensá en gmail), node.js se ajusta perfectamente. La habilidad de procesar muchos requests / segundo con bajo tiempo de respuesta, así como compartiendo cosas como código de validación entre el servidor y el cliente, hace una gran opción para las aplicaciones web que hacen mucho procesamiento en el lado del cliente.
 
-### Shelling out to unix tools
+### Utilizando herramientas de linea de comando de unix
 
-With node.js still being young, it's tempting to re-invent all kinds of software
-for it. However, an even better approach is tapping into the vast universe of
-existing command line tools. Node's ability to spawn thousands of child
-processes and treating their outputs as a stream makes it an ideal choice for
-those seeking to leverage existing software.
+Siendo node.js todavía prematuro, es tentador reinventar todo tipo de software para él. 
+Igualmente, un mejor modo de accionar es meterse en el vasto universo de las ya existentes lineas de comando. 
+La habilidad de node de generar miles de "procesos hijos" y tratar sus outputs como streams, dejan como una opción ideal para quienes buscan usar software existente.
 
-### Streaming data
+### Streaming de información
 
-Traditional web stacks often treat http requests and responses as atomic events.
-However, the truth is that they are streams, and many cool node.js applications
-can be built to take advantage of this fact. One great example is parsing [file
-uploads in real time][realtimeencoding], as well as building proxies between different data
-layers.
+Web stacks tradicionales usualmente tratan a los requests http y a las respuestas como eventos atómicos. La verdad es que hay streams y muchas aplicaciones node.js que pueden tomar ventaja de este hecho. Un gran ejemplo es parsear la subida de archivos en tiempo real, así como crear proxies entre diferentes capas de información.
 
 [realtimeencoding]: http://transloadit.com/blog/2010/12/realtime-encoding-over-150x-faster
 
-### Soft Realtime Applications
+### Aplicaciones Realtime
 
-Another great aspect of node.js is the ease at which you can develop soft real
-time systems. By that I mean stuff like twitter, chat software, sport bets or
-interfaces to instant messaging networks.
+Otro gran aspecto de node.js es la elasticidad con la que podes desarrollar sistemas Realtime. 
+Con esto me refiero a cosas como twitter, programas de chat, apuestas de deportes o interfaces de redes de mensajes instantaneos.
 
-But please be careful here, since JavaScript is a dynamic / garbage collected
-language, your response times may sometimes vary depending on how often and long
-the garbage collection kicks in (at which point your program is stopped). So
-don't try to build hard realtime systems in node, that require consistent
-response times. Erlang is probably a better choice for these kinds of
-applications.
+Pero por favor se cuidadoso en esto, desde que JavaScript es un lengiaje dinámico con colector de basura, tu tiempo de respuesta puede variar a veces dependiendo de cuan seguido y cuanto tarda en pasar el colector de basura (en que punto tu programa es parado). 
+Entonces no trates de hacer sistemas duros realtime con node, que requieran tiempos de respuesta consistentes. 
+Erlang es probablemente una mejor opción para ese tipo de aplicaciones.
 
-## Convincing the boss
 
-Once you have determined that your use case is a good fit for node.js, it's time
-to convince your boss or management of giving it a go.
 
-### Building a prototype
+## Convenciendo al jefe
 
-The best way to put your foot into the door, is to suggest taking a week to
-build a simple prototype of a certain part of the application you have in mind.
-It's usually easy to get management to agree to that, since they don't have to
-make a long term commitment yet.
+Una vez que determinaste que tu uso de caso es bueno para usar node.js, es tiempo de convencer a tu jefe.
 
-After you've got the approval, it's usually easy to get a basic system up and
-running, which will provide you with much more hard data and evidence of the
-benefits of node.js.
+### Haciendo un prototipo
 
-### Finding developers
+La mejor manera de "poner tu pie en la puerta" es sugerir tomarte una semana para hacer un prototipo simple de una parte de la aplicación que tenes en mente.
+Es usualmente fácil que tu jefe concuerde con eso, ya que no tiene que comprometerse a largo plazo todavía.
 
-Think of JavaScript whatever you want, but at this point it's becoming the
-[lingua franca][] of computer programming. Pretty much every personal computer
-has one or more JavaScript interpreters (browsers) installed, which means it's
-almost impossible for most web developers to not learn it at some point in their
-career.
+Luego de tener la aprobación, es fácil tener un sistema básico corriendo, que te va a proveer de mucha más información y evidencia de los beneficios de node.js.
 
-This means that you get a huge and diverse pool of people you can hire, and you
-probably already have plenty of talent in your own company. So if you're working
-for a growing company, this is a strong argument favouring node.js.
+### Buscando desarrolladores
+
+Pensá acerca de JavaScript como quieras, pero a este punto se está volviendo la lengua franca de la programación. Practicamente toda computadora personal tiene uno o más interpretes (navegadores) instalados, lo que hace casi imposible por la mayoría de los desarrolladores web no aprenderlo en algún punto de su carrera.
+
+Esto signfica que tenes un enorme y diverso grupo de personas que podes contratar, y probablemente ya haya muchos talentosos en tu compañia. Entonces, si estás trabajando para una compañia en crecimiento, este es un argumento fuerte en favor de node.js.
 
 [lingua franca]: http://en.wikipedia.org/wiki/Lingua_franca
 
-### Vibrant community
+### Comunidad vibrante
 
-At this point the node.js community is growing at an insane pace, attracting
-some of the smartest developers in the industry. This also means that the node
-ecosystem is growing every day, and it's also easy to get free and commercial
-support from various sources.
+Llegado este punto la comunidad de node.js está creciendo a un ritmo loco, atrayendo algunos de los desarrolladores más inteligentes de la industria. Esto también significa que el ecosistema de node crece cada día, y también es facil encontrar soporte gratuito y comercial de distintas fuentes.
 
 ### Performance
 
-This argument has to be carefully played, but if performance is a critical
-aspect of your application, node.js has lots to offer. With five companies
-(Mozilla, Google, Apple, Microsoft, Opera) competing over the best JavaScript
-implementation, node's underlaying interpreter (Google's v8) has become insanely
-fast, and getting better every day.
+Este argumento tiene que ser expuesto con cautela, pero si la performance es un aspecto crítico de tu aplicación, node.js tiene mucho que ofrecer. 
+Con cinco compañias (mozilla, Google, Apple, microsoft, Opera) compitiendo sobre la mejor implementación de JavaScript, el intérprete de JavaScript por debajo de node (Google v8) se fue haciendo muy rápido y mejor cada día.
 
-Combining this with node's radical model of non-blocking I/O, you have to try
-very hard to create a sluggish application. Most node apps are easily capable of
-handling thousands of concurrent connections, on what could be considered
-moderate hardware by any standards.
+Combinando esto con el modelo radical de node de non-blocking I/O, tenes que tratar mucho para crear una aplicación lenta. 
+La mayoría de las aplicaciones en node son capaces de manejar miles de conexiones concurrentes, en lo que puede ser considerado hardware moderado para cualquier estándar.
 
-### Corporate Backing
+### Apoyo corporativo
 
-One of the risks with using a young open source project is the lack of longterm
-commitment by its authors. This isn't the case with node.js. Node is currently
-sponsored by [Joyent][], who has hired Ryan Dahl and several other core
-contributors, so there is a real economic force backing the future development
-of the project.
+Uno de los riesfos de usar un joven proyecto open source es la falta de compromiso a largo plazo de sus autores. 
+Este no es el caso de node.js. Node es actualmente esponsoreado por Joyent, que contrató a Ryan Dahl y muchos otros colaboradores princpiales, con lo cual hay un apoyo económico real al fúturo del desarrollo del proyecto.
 
-Amongst other things, this has already given companies like Yahoo! and HP
-(formerly Palm) enough confidence to build their next generation products on
-node.js, so your boss can certainly relax by reading their reassuring
-testimonials.
+Entre otras cosas, esto ya le dio a compañias como Yahoo! y HP suficiente confianza para crear su próxima generación de productos en node.js, así que tu jefe puede relajarse leyendo ess tranquilizantes testimonios.
 
 [joyent]: http://joyent.com/
 
-## Convincing a client
+## Convenciendo al cliente
 
-If you're a freelancer or small company doing contract work, convincing a client
-to use node.js might be a different story. After all they are usually very
-dependent on your judgement, as well as continuous support for the software you
-create for them.
+Si sos un freelancer o una compañia pequeña haciendo contratos de trabajo, convencer al cliente de usar node.js puede ser otra historia.
 
-My advice here is to be a little more conservative, and double check if node is
-a good fit. If it is, make sure that you have the resources and time to support
-the application in the future. The node.js team is releasing new versions at a
-rapid pace, and so you should expect a little work every 3-6 months to update to
-the latest version.
+Después de todo ellos son generalmente muy dependientes de tu jucio, así como son en el continuo soporte por el software que creas para ellos.
 
+Mi consejo acá es que seas un poco más conservador, y chequees doblemente si node se ajusta a tu caso. 
+Si es así, mantenete seguro de que tenes los recursos y el tiempo para dar soporte a tu aplicación en el futuro. 
+El equipo de node.js está sacando nuevas versiones muy velozmente, así que deberías esperar un poco de trabajo cada 3-6 meses para actualizar a la última versíon.
