@@ -39,19 +39,19 @@ de google groups. Las dos listas oficiales son:
 
 ## Twitter
 
-Since twitter cuts off tag names when it sees a dot character, many people use
-the tag '#nodejs' to highlight node.js related content on twitter. You can find
-the current stream of tweets via twitter's search function:
-
+Desde que Twitter corta las etiquetas cuando ve un punto, mucha gente usa la
+etiqueta '#nodejs' para distinguir contenido relativo a node.js en twitter.
+Podés encontrar el stream actual de twitter vía la función de búsqueda de 
+twitter:
 [http://search.twitter.com/search?q=%23nodejs%20OR%20node.js](http://search.twitter.com/search?q=%23nodejs%20OR%20node.js)
 
-Since not everybody is tagging their content, the above query also includes
-results for the term 'node.js' itself.
+Desde que no todo el mundo está etiquetando su contenido, la búsqueda de arriba
+también incluyeresultados para el término 'node.js'.
 
-## Community Members
+## Miembros de la comunidad
 
-If you are curious about the people driving the node.js development & ecosystem,
-here is a list of a few people whose names you should know.
+Si sos curioso acerca de la gente manejando el desarrollo y el ecosistema de node.js
+acá hay una lista de algunas personas cuyo nombre deberías conocer.
 
 ### Ryan Dahl
 
