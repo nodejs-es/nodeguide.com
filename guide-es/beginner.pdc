@@ -3,39 +3,26 @@
 
 Hay mucha información acerca de node.js, pero dado el ritmo rápido en el cual se está desarrollando, puede ser complicado para principiantes encontrar buena informacion de cómo comenzar. Esta guía pretende proveer exactamente eso y al mismo tiempo mantenerse actualizado con la versión estable más reciente de node.
 
-This guide has been updated to reflect the latest changes in node 0.4.x, the
-currently stable branch of node.js.
+Esta guía ha sido actualizada para reflejar los últimos cambios en node 0.4.x, La rama estable actual de node.js.
 
-Esta guía ha sido actualizada para reflejar los últimos cambios en node 0.4.x, La rama actual estable de node.js.
+## Aprendiendo JavaScript
 
-## Learning JavaScript
-
-This guide assumes that you are already familar with JavaScript. If you are not,
-you should go ahead and read: [Eloquent JavaScript][eloquentjs], a free online
-book by [Marijn Haverbeke][marijn].
+Esta guía asume que estas familiarizado con JavaScript. Si no es así, deberías seguir adelante y leer [Eloquent JavaScript][eloquentjs], a free online book by [Marijn Haverbeke][marijn].
 
 [eloquentjs]: http://eloquentjavascript.net/
 [marijn]: http://twitter.com/marijnjh
 
-## Hello World Tutorial
+## Tutorial Hola Mundo
 
-This tutorial guides you through installing node.js, including the creation of a
-simple hello world http server.
+Este tutorial te guia instalando node.js, incluyendo la creacion of un simple http server "hola mundo"
 
-### Installation
+### Instalación
 
-First of all: You should run a *nix operating system in order to use node.js at
-this point. Linux and OSX are recommended, but you should also be able to use
-FreeBSD and cygwin (on windows). A full windows port of node.js is in the works,
-but it is not yet ready for public usage.
+En primer lugar: Usted debe ejecutar un sistema operative *nix en este punto con el fin de utilizar node.js. Son recomendados Linux and OSX, aunque tambien debe ser capaz de utilizar FreeBSD y cygwin (bajo windows). Un full windows port de node.js está en estos trabajos pero todavía no está listo para uso público.
 
-The most common way to install node.js is to directly compile it from the
-downloaded source code. There are also various packages available for different
-package managers, but since their update frequency varies, I recommend
-installing from source.
+La forma más común para instalar node.js es directamente compilarlo desde el código fuente descargado. También hay varios paquetes disponibles para los diferentes gestores de paquetes, pero ya que su frecuencia de actualización varía te recomiendo instalar desde el código fuente.
 
-You can get the latest source code from [nodejs.org][nodejs]. Use the commands
-below to download and install v0.4.4:
+Puedes obtener el código de la versión más reciente desde [nodejs.org][nodejs]. Utilice los comandos de abajo para descargar e instalar la version v0.4.4:
 
 [nodejs]: http://nodejs.org/
 
@@ -47,9 +34,7 @@ $ ./configure
 $ sudo make install
 ~~~
 
-Node.js itself has no external dependencies except common build tools as well as
-pythons for the build system itself. On OSX you must install XCode for this to
-work, and on Ubuntu you probably have to run:
+Node.js en si no tiene dependencias externas excepto herramientas comunes de generación así como pythons para el sistema de construcción en sí. En OSX debes instalar XCode para que este funcione, y en Ubuntu provablemente tengas que correr: 
 
 ~~~ {.shell}
 $ apt-get -y install build-essential
