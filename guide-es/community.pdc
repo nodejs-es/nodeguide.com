@@ -1,40 +1,41 @@
 % Felix's Node.js Community Guide
+% traducido por Dan Zajdband (dan.zajdband@gmail.com)
 
-If you have just read the Beginner's Guide, and you are interested in becoming
-more involved with the node.js community, this guide is for you.
+Si acabas de leer la guía del principiante, y estás interesado en conectarte más 
+con la comunidad de node.js, esta guía es para vos.
 
 ## IRC
 
-IRC is a great place to discuss the virtues of vim vs. emacs, as well as getting
-support and interaction from people within the node.js community.
+IRC es un gran lugar para discutir las virtudes de vim contra emacs, así como 
+para recibir soporte e interacción de gente de la comunidad de node.js.
 
-The official irc channel for node.js is located on [chat.freenode.net][freenode]
-and named '#node.js' (yes, the dot is part of the name). There are usually ~500
-people in there these days.
+El canal oficial de irc de node.js está alojado en [chat.freenode.net][freenode]
+y llamado '#node.js' (sí, el punto es parte del nombre). Hay generalmente ~500
+personas ahí actualmente.
 
-If you have a question, just go ahead and ask it. Depending on who's awake and
-paying attention, you often get great replies right away. Otherwise just stick
-around and wait for an hour or so. After that it's ok to ask your question
-again, in case you think it went by unnoticed.
+Si tenes alguna pregunta, solo andá y preguntá. Dependiendo quien esté despierto
+y prestando atención, por lo general vas a tener grandes respuestas. De otro modo
+solo andá pro ahí y esperá por una hora más o menos. Después de esa espera está
+bien repreguntar, en caso que pienses que no fue bien notificada.
 
-Oh, and you should always try to find your answer on the web first, but you [know
-that][lmgtfy], right?
+Ah, y deberías siempre tratar de buscar tu respuesta en la web primero, pero vos
+[sabés][lmgtfy], cierto?
 
 [freenode]: http://webchat.freenode.net/
 [lmgtfy]: http://lmgtfy.com/
 
 ## Google Groups
 
-A lot of discussion around node.js takes place via google group mailing lists.
-The two official lists are:
+Gran parte de la discusión acerca de node.js tiene lugar en las listas de mails
+de google groups. Las dos listas oficiales son:
 
 [nodejs](https://groups.google.com/forum/#!forum/nodejs)
-  ~ The 'nodejs' list is meant for general node.js questions and discussions. So
-    generally that's the one you want to use.
+  ~ La lista de 'nodejs' está hecha para preguntas y discusiones generales. Con
+    lo cual es la que generalmente vas a usar
 [nodejs-dev](https://groups.google.com/forum/#!forum/nodejs-dev)
-  ~ If you have found a bug in node.js, or want to get involved in discussing
-    features & development, feel free to participate in the 'nodejs-dev' mailing
-    list. It's generally less noisy, and most of the core contributors follow it.
+  ~ Si encontraste un bug en node.js o queres involucrarte en las features y el
+    desarrollo, sentite libre de participar en la lista 'nodejs-dev'
+    es bastante menos ruidosa y la mayoría de los core contributos la siguen.
 
 ## Twitter
 
