@@ -55,18 +55,17 @@ acá hay una lista de algunas personas cuyo nombre deberías conocer.
 
 ### Ryan Dahl
 
-Ryan is the creator, maintainer and [BDFL][bdfl] of node.js. This means any
-commits that go into node.js are reviewed by him, and he's the only one who
-directly pushes to the node repository.
+Ryan es el creador, encargado y [BDFL][bdfl] de node.js. Esto significia
+que cada commit que va a node.js es revisado por él, y él es el único que
+hace push directamente al repositorio de node.
 
-While Ryan will generally try to respond to questions on the mailing list and
-IRC, he's a very busy guy. So don't be upset if he doesn't answer your direct
-questions right away, there are usually other people around who can help as
-well.
+Mientras Ryan generalmente trata de respponder a preguntas en la lista de
+mails e IRC, él es un tipo muy ocupado. No te pongas mal si no te contesta
+directamente preguntas, generalmente hay otra gente alrededor que puede
+ayudar también.
 
-Ryan is currently working for [Joyent][joyent], a company that provides great
-heroku-style [node.js hosting][nodehosting], and is the official corporate
-sponsor for node.js.
+Ryan actualmente trabaja en [Joyent][joyent], la compañia que provee gran
+[node.js hosting][nodehosting], y es la corporación sponsor oficial de node.js.
 
 [bdfl]: http://en.wikipedia.org/wiki/BDFL
 [joyent]: http://joyent.com/
@@ -76,75 +75,74 @@ sponsor for node.js.
 * Twitter: [@ryah](http://twitter.com/ryah)
 * GitHub: [ry](https://github.com/ry)
 * Blog: [blog.nodejs.org](http://blog.nodejs.org/)
-* Where: San Francisco, USA
+* Donde vive: San Francisco, USA
 
 ### Isaac Schlueter
 
-Isaac is the author of [npm][npm], the de-facto package manager used by the
-node.js community. He also works for Joyent and is a big contributor to the
-node.js core as well. In his spare time he is trying to liberate the JavaScript
-community from [semicolon slavery][semicolon].
+Isaac es el autor de [npm][npm], el de-facto manejador de paquetes usado por
+la comunidad de node.js. También trabaja para Joyent y es un gran contribuidor
+del núcleo de node.js. En su tiempo libre está tratando de liberar a la comunidad
+de la [esclavitud del punto y coma][semicolon]
 
 * IRC Nick: isaacs
 * Twitter: [@izs](http://twitter.com/izs)
 * GitHub: [isaacs](https://github.com/isaacs)
 * Blog: [blog.izs.me](http://blog.izs.me/)
-* Where: San Francisco, USA
+* Donde vive: San Francisco, USA
 
 [npm]: http://npmjs.org/
 [semicolon]: http://blog.izs.me/post/3393190720/how-this-works
 
 ### Bert Belder
 
-Bert is the main developer working on windows support for node, and also one
-of the biggest overall contributors to the project.
+Bert es el principal desarrollador trabajando en el soporte de node para windows,
+a su vez es uno de los mayores contribuidores del proyecto.
 
 * IRC Nick: piscisaureus
 * Twitter: [@piscisaureus](http://twitter.com/piscisaureus)
 * GitHub: [piscisaureus](https://github.com/piscisaureus)
-* Where: Netherlands
+* Donde vive: Netherlands
 
 ### TJ Holowaychuk
 
-TJ is the author of [express][express], [jade][jade] and many other popular
-node.js libraries.
+TJ es el autor de [express][express], [jade][jade] y muchos otras populares
+librerias de node.js.
 
 * Twitter: [@tjholowaychuk](http://twitter.com/tjholowaychuk)
 * GitHub: [visionmedia](https://github.com/visionmedia)
 * Blog: [tjholowaychuk.com](http://tjholowaychuk.com/)
-* Where: Victoria, BC, Canada
+* Donde vive: Victoria, BC, Canada
 
 [express]: http://expressjs.com/
 [jade]: http://jade-lang.com/
 
 ### Tim Caswell
 
-Tim is the original author of [connect][connect], and has been contributing to
-node.js since the early days. He currently works for HP (formerly Palm), and
-is also known for the collaborative blog [howtonode.org][howtonode].
+Tim es el autor original de [connect][connect], y ha estado contribuyendo a
+node.js desde sus primeros días. Actualmente trabaja para HP, y es también
+conocido por el blog colaborativo [howtonode.org][howtonode]
 
 * IRC Nick: creationix
 * Twitter: [@creationix](http://twitter.com/creationix)
 * GitHub: [creationix](https://github.com/creationix)
 * Blog: [howtonode.org][howtonode]
-* Where: San Francisco, USA
+* Donde vive: San Francisco, USA
 
 [howtonode]: http://howtonode.org/
 [connect]: https://github.com/senchalabs/connect
 
 ### Felix Geisendörfer
 
-Yours truly, who is very active in the node.js core development, and works on
-projects such as [formidable][formidable], [mysql][mysql] and this very guide.
-Besides node core development, I'm also the co-founder of a node.js startup
-providing file uploading & video encoding as a service called
-[transloadit.com][transloadit].
+Quien es muy activo en el núcleo del desarrollo de node.js, y trabaja en proyectos
+como [formidable][formidable], [mysql][mysql] y esta guia. Más allá del desarrollo
+del nucleo, también soy co-fundador de una startup que usa node.js para proveer
+upload de archivos y video encoding como servicio llamada [transloadit.com][transloadit]
 
 * IRC Nick: felixge
 * Twitter: [@felixge](http://twitter.com/felixge)
 * GitHub: [felixge](https://github.com/felixge)
 * Blog: [debuggable.com/blog](http://debuggable.com/blog)
-* Where: Berlin, Germany
+* Donde vive: Berlin, Germany
 
 [formidable]: https://github.com/felixge/node-formidable
 [mysql]: https://github.com/felixge/node-mysql
